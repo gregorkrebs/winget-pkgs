@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: GregorKrebs.NeoSSHWinManager
-PackageVersion: 1.7.1
+PackageVersion: 1.7.2
 PackageLocale: en-US
 Publisher: Gregor Krebs
 PublisherUrl: https://github.com/gregorkrebs
@@ -35,9 +35,9 @@ Tags:
 - terminal
 - winscp-alternative
 ReleaseNotes: |-
-  The app starts again on its own after an in-app update (after the update to 1.7.0 it stopped with "Failed to load Python DLL").
+  The embedded terminal now asks whether to trust the key of a newly added server, instead of failing after half a minute as if the host or the password were wrong, and the app starts again on its own after an in-app update.
   1.7.0 brought a single-user mode that signs you in automatically, a filter that finds any connection as you type (Ctrl+F), a redesigned login screen with a language menu and the Black theme, and removed the Pro licence: everything is free and open source.
-ReleaseNotesUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/tag/v1.7.1
+ReleaseNotesUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/tag/v1.7.2
 Documentations:
 - DocumentLabel: Documentation
   DocumentUrl: https://www.neosshwinmanager.org/en/docs/getting-started

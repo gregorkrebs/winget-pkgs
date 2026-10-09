@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: GregorKrebs.NeoSSHWinManager
-PackageVersion: 1.7.1
+PackageVersion: 1.7.2
 PackageLocale: de-DE
 Publisher: Gregor Krebs
 PublisherUrl: https://github.com/gregorkrebs
@@ -27,6 +27,6 @@ Tags:
 - sshfs-win
 - terminal
 - winscp-alternative
-ReleaseNotesUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/tag/v1.7.1
+ReleaseNotesUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/tag/v1.7.2
 ManifestType: locale
 ManifestVersion: 1.12.0
