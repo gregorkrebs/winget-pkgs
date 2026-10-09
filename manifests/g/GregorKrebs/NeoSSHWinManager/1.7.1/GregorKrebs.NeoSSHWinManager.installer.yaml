@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: GregorKrebs.NeoSSHWinManager
-PackageVersion: 1.7.0
+PackageVersion: 1.7.1
 InstallerLocale: en-US
 InstallerType: inno
 UpgradeBehavior: install
@@ -14,14 +14,14 @@ ProductCode: '{B4E6F1A2-7C3D-4E5A-9F8B-1D2C3E4F5A6B}_is1'
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/download/v1.7.0/NeoSSHWinManager-Setup-1.7.0.exe
-  InstallerSha256: 108FBAE70D9B6996598966060CB101D6BF4790A07746C45D3EE5BD3E5E43870E
+  InstallerUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/download/v1.7.1/NeoSSHWinManager-Setup-1.7.1.exe
+  InstallerSha256: 8D978EAB06B9C0CD0A39669EEC36DDDC7B93FE524837050E8B7E3482DCED2EEB
   InstallerSwitches:
     Custom: /CURRENTUSER
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/download/v1.7.0/NeoSSHWinManager-Setup-1.7.0.exe
-  InstallerSha256: 108FBAE70D9B6996598966060CB101D6BF4790A07746C45D3EE5BD3E5E43870E
+  InstallerUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/download/v1.7.1/NeoSSHWinManager-Setup-1.7.1.exe
+  InstallerSha256: 8D978EAB06B9C0CD0A39669EEC36DDDC7B93FE524837050E8B7E3482DCED2EEB
   InstallerSwitches:
     Custom: /ALLUSERS
 ManifestType: installer
