@@ -35,7 +35,7 @@ Tags:
 - terminal
 - winscp-alternative
 ReleaseNotes: |-
-  The app starts again on its own after an in-app update (after the update to 1.7.0 it stopped with "Failed to load Python DLL"), and the update window lists everything that is new since your version.
+  The app starts again on its own after an in-app update (after the update to 1.7.0 it stopped with "Failed to load Python DLL").
   1.7.0 brought a single-user mode that signs you in automatically, a filter that finds any connection as you type (Ctrl+F), a redesigned login screen with a language menu and the Black theme, and removed the Pro licence: everything is free and open source.
 ReleaseNotesUrl: https://github.com/gregorkrebs/NeoSSHWinManager/releases/tag/v1.7.1
 Documentations:
